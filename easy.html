@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Chemical Quiz</title>
+  </head>
+
+  <body>
+    <div class="background">
+      <header>
+        <div><h1>Chemical Quiz</h1></div>
+      </header>
+      <main>
+        <div>
+          <table id="table">
+            <th>
+              <tr>
+                <td>Element name</td>
+                <td>Symbol</td>
+              </tr>
+            </th>
+            <!-- Elements -->
+            <tr>
+              <td>Hydrogen</td>
+              <td><input type="text" id="e1" /></td>
+            </tr>
+            <tr>
+              <td>Helium</td>
+              <td><input type="text" id="e2" /></td>
+            </tr>
+            <tr>
+              <td>Lithium</td>
+              <td><input type="text" id="e3" /></td>
+            </tr>
+            <tr>
+              <td>Beryllium</td>
+              <td><input type="text" id="e4" /></td>
+            </tr>
+            <!-- Elements above -->
+            <tr>
+              <td colspan="2" style="text-align: center;">
+                <button type="button" onclick="easy()" class="submit-btn">
+                  Submit
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center;">
+                <input
+                  type="button"
+                  value="Your Score :"
+                  id="score"
+                  style="
+                    background-color: black;
+                    border: none;
+                    color: white;
+                    padding-top: 10px;
+                  "
+                />
+                <!-- <button id="score" onclick="myFunction()">0</button> -->
+              </td>
+            </tr>
+          </table>
+        </div>
+      </main>
+    </div>
+    <footer></footer>
+  </body>
+</html>
